@@ -22,7 +22,7 @@
     --box-shadow: 0 2rem 3rem var(--color-light);
 }
 
-.dark_mode_variables {
+.dark-mode-variables {
     --color-background: #181a1e;
     --color-white: #202528;
     --color-dark: #edeffd;
@@ -593,7 +593,7 @@ main .recent-orders a{
 @media screen and (max-width: 768px) {
     .container {
         width: 100%;
-        grid-template-columns: 1ft;
+        grid-template-columns: 1fr;
         padding: 0 var(--padding-1);
     }
 
